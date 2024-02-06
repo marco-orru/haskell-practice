@@ -31,3 +31,6 @@ Define a function of type
 Eq a => [a] -> [a] -> Bool
 ```
 that, when applied to two lists `xs` and `ys`, determines whether there exists an element in `xs` that is different from every element in `ys`. Explicit recursion is forbidden, but all functions defined in the *`Prelude`* module can be used.
+
+## Exercise 6
+Define a function that, when applied to a list `xs`, returns the sub-list containing only the elements of `xs` at even positions, in the same order as they appear in `xs`, assuming that the first element of the list is at position `0`. It is forbidden to use functions from the standard library except for `mod` and those with a symbolic name, such as `+`, `.`, etc.
