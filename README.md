@@ -55,3 +55,10 @@ Define a function of type
 Integral a => [a] -> Maybe a
 ```
 that finds, if it exists, the last even number in a list of integers. It is forbidden to use standard library functions except for `mod`, `even` and those with symbolic names, such as `+`, `.`, etc.
+
+## Exercise 10
+Define a function of type
+```haskell
+Eq a => [a] -> [a] -> Bool
+```
+that, when applied to two lists `xs` and `ys`, determines if there exists an element in `xs` that is different from every element in `ys`. It is forbidden to use standard library functions except for those with symbolic names, such as `+`, `.`, etc.
