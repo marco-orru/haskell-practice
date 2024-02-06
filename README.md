@@ -15,3 +15,10 @@ a that transforms a tree into normal form. Use recursion only where necessary an
 
 ## Exercise 2
 Define a function that, when applied to a list `xs`, returns the sublist containing only and all elements of `xs` in even position, in the same order as the appear in `xs`, assuming that the first element of the list is at position `0`. Explicit recursion is forbidden, but al functions defined in the *`Prelude`* can be used.
+
+## Exercise 3
+Define a function `inversions` that, when applied to a list `xs`, calculates the number of inversions in `xs`, which is the number of elements in `xs` immediately followed by a smaller element. Explicit recursion is forbidden, but all functions defined in the *`Prelude`* module can be used.
+
+
+
+
