@@ -24,3 +24,10 @@ Define a function of type
 Integral a => [a] -> Maybe a
 ```
 that finds, if exists, the last even number in a list of integers. Explicit recursion is forbidden, but all functions defined in the *`Prelude`* module can be used.
+
+## Exercise 5
+Define a function of type
+```haskell
+Eq a => [a] -> [a] -> Bool
+```
+that, when applied to two lists `xs` and `ys`, determines whether there exists an element in `xs` that is different from every element in `ys`. Explicit recursion is forbidden, but all functions defined in the *`Prelude`* module can be used.
