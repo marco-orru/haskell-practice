@@ -6,7 +6,6 @@ Given the algebraic data type:
 ```haskell
 data Tree a = Empty | Node a [Tree a]
 ```
-
 used to represent *n*-ary trees, we say that a tree is in **normal form** if it is either `Empty` or constructed without using `Empty`. Define a function 
 ```haskell
 normalize :: Tree a -> Tree a
@@ -19,6 +18,9 @@ Define a function that, when applied to a list `xs`, returns the sublist contain
 ## Exercise 3
 Define a function `inversions` that, when applied to a list `xs`, calculates the number of inversions in `xs`, which is the number of elements in `xs` immediately followed by a smaller element. Explicit recursion is forbidden, but all functions defined in the *`Prelude`* module can be used.
 
-
-
-
+## Exercise 4
+Define a function of type
+```haskell
+Integral a => [a] -> Maybe a
+```
+that finds, if exists, the last even number in a list of integers. Explicit recursion is forbidden, but all functions defined in the *`Prelude`* module can be used.
