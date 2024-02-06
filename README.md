@@ -34,3 +34,8 @@ that, when applied to two lists `xs` and `ys`, determines whether there exists a
 
 ## Exercise 6
 Define a function that, when applied to a list `xs`, returns the sub-list containing only the elements of `xs` at even positions, in the same order as they appear in `xs`, assuming that the first element of the list is at position `0`. It is forbidden to use functions from the standard library except for `mod` and those with a symbolic name, such as `+`, `.`, etc.
+
+## Exercise 7
+Define a function `inversions` that, when applied to a list `xs`, calculates the number of inversions in `xs`, which is the number of elements in `xs` immediately followed by a smaller element. It is forbidden to use functions from the standard library except for `mod` and those with a symbolic name, such as `+`, `.`, etc. Ensure that inversions has the most general type possible.
+
+
