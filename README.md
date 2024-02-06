@@ -12,3 +12,6 @@ used to represent *n*-ary trees, we say that a tree is in **normal form** if it 
 normalize :: Tree a -> Tree a
 ``` 
 a that transforms a tree into normal form. Use recursion only where necessary and leverage *`Prelude`* functions as much as possible. If needed, auxiliary functions can be defined.
+
+## Exercise 2
+Define a function that, when applied to a list `xs`, returns the sublist containing only and all elements of `xs` in even position, in the same order as the appear in `xs`, assuming that the first element of the list is at position `0`. Explicit recursion is forbidden, but al functions defined in the *`Prelude`* can be used.
