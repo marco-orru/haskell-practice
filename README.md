@@ -1,5 +1,5 @@
 # Haskell Practice
-This repository serves as a personal space for practicing Haskell through a curated set of exercises in preparation for an upcoming exam.
+This repository serves as a personal space for practicing Haskell.
 
 ## Exercise 1
 Given the algebraic data type:
