@@ -1,4 +1,8 @@
 # Haskell Practice
+
+> Part of the University class _Programming Languages and Paradigms_ (**[LPP](https://laurea.informatica.unito.it/do/corsi.pl/Show?_id=ryxk)**, _Linguaggi e Paradigmi di Programmazione_, UNITO Informatica).
+---
+
 This repository serves as a personal space for practicing Haskell.
 
 ## Exercise 1
